@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+color: black;
+height: 85vh;
+width: 100vw;
+background-color: whitesmoke;
+background-image: url(images/stethoscope.png);
+font-size: 80px;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    display: flex;
+    /* padding: 10px 60px; */
+    height: 10vh;
+    width: 96vw;
+    background-color: whitesmoke;
+    margin: 2vw;
+}
+.headerDiv01{
+    width: 50vw;
+    align-self: center;
+}
+.headerDiv02{
+    width: 50vw;
+    align-self: center;
+    padding-left: 250px;
+}
+ul{
+    display: flex;
+    gap: 2vw;
+}
+li{
+    list-style: none;
+    font-size: 15px;
+}
+main{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    }
+.mainDiv01{
+    width: 50vw;
+    height: 80vh;
+    padding: 50px;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 0px;
+}
+
+p{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+button{
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+}
+.mainDiv02{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    padding-left: 130px;
+    margin-top: 50px;
+}
+.greenBox{
+    padding-top: 10px;
+    height: 70vh;
+    position: relative;
+    }
+.yellowBox{
+    padding-top: 70px;
+    height: 60vh;
+    position: absolute;
+    top: 120px;
+    left: 65vw;
+}
+.doctor{
+    padding-top: 20px;
+    height: 80vh;
+    position: absolute;
+}
