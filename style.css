@@ -1,98 +1,431 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+
 }
 body{
-color: black;
-height: 85vh;
-width: 100vw;
-background-color: whitesmoke;
-background-image: url(images/stethoscope.png);
-font-size: 80px;
-}
-section{
-    height: 100vh;
+    height: 350vh;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.section01{
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+}
+.div01{
+    height: 64vh;
+    width: 40vw;
+    display: flex;
+    padding: 2vh 2vw;
+    }
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-left: 10vw;
+    margin-top: 20px;
+}
+.mainImage{
+    margin-left: 5vw;
+    height: 400px;
+}
+
+.div02{
+    height: 64vh;
+    width: 60vw;
+    padding: 2vh 2vw;
 }
 header{
     display: flex;
-    /* padding: 10px 60px; */
+    width: 58vw;
     height: 10vh;
-    width: 96vw;
-    background-color: whitesmoke;
-    margin: 2vw;
+    color: white;
+    margin: 2vh 2vw;
 }
-.headerDiv01{
-    width: 50vw;
+.headerLi{
     align-self: center;
 }
-.headerDiv02{
-    width: 50vw;
-    align-self: center;
-    padding-left: 250px;
-}
-ul{
+.headerList{
+    list-style: none;
     display: flex;
-    gap: 2vw;
+    gap: 20px;
+    }
+.button01{
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    border-top: solid gray;
+    border-left: solid gray;
+    background-color: rgb(35, 34, 34);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+main{
+    width: 56vw;
+    height: 60vh;
+    margin: 2vh 2vw;
+}
+.eardiv{
+    height: 12vh;
+    width: 56vw;
+}
+.div-p{
+    height: 30vh;
+    width: 56vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    height: 8vh;
+    font-size: 50px;
+    padding: 10px 5px;
+}
+h4{
+    height: 5vh;
+    font-size: 15px;
+    padding: 5px;
+
+}
+.button02{
+    display: flex;
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(35, 34, 34);
+    gap: 20px;
+    margin: 25px 0;
+}
+.section02{
+    height: 10vh;
+    width: 94vw;
+    margin: auto;
+    display: flex; 
+    }
+.mediaUl{
+    align-self: center;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    gap: 10vw ;
+}
+li{
+    gap: 50vw;
+}
+
+.section03{
+    margin: 0;
+    padding: 0;
+    height: 65vh;
+    width: 100vw;
+}
+.specsdiv{
+    margin-top: 5vh;
+    padding: 2vh 2vw;
+    text-align: center;
+}
+.nav01{
+    display: flex;
+}
+.div-para{
+    width: 20vw;
+    height: 50vh ;
+    margin-left: 30vw;
+}
+.specsImagediv{
+    width: 40vw;
+    height: 50vh ;
+    margin-right: 10vw;
+}
+p{
+    padding: 0;
+    color: white;
+}
+.specsImage{
+    height: 300px;
+}
+
+.a{
+    margin-left: 20px;
+}
+.c{
+    margin-left: 20px;
+}
+.section04{
+    height: 55vh;
+    width: 100vw;
+}
+.casediv0{
+    height: 8vh;
+    text-align: center;
+    padding: 2vh 0;
+}
+.caselogo{
+    height: 8vh;
+}
+.nav02{
+    display: flex;
+    width: 600px;
+    margin: auto;
+}
+.casediv1{
+    width: 200px;
+    margin-left: 100px;
+}
+.divpara2{
+    width: 200px;
+    margin-right: 100px;
+}
+.caseImage{
+    height: 35vh;
+}
+.casep{
+    padding: 5vh 2vw; 
+}
+.btn{
+    width: 150px;
+    background-color: rgb(77, 72, 72);
+    display: flex;
+    gap: 10px;
+    margin: 1vh 2vw ;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.section5{
+    height: 36vh;
+    width: 100vw;
+}
+.shoppingdiv{
+    display: flex;
+    background-color: rgb(37, 34, 34);
+    margin: auto;
+    height: 36vh;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.div-a{
+    height: 20vh;
+    width: 400px;
+    margin-top: 20px;
+    padding: 35px 10px;
+    align-items: center;
+    }
+.h03 {
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    width: 220px;
+    margin-left: 100px;
+}
+.p3{
+    color: white;
+    font-size: 12px;
+    height: 20px;
+    width: 220px;
+    margin-left: 100px;
+    }
+.btn2{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 100px;
+    border: none;
+    margin-top: 5px;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.div-b{
+    height: 30vh;
+    width: 400px;
+    margin-top: 20px;
+}
+.buy{
+    height: 200px;
+}
+.section6{
+    height: 190vh;
+    width: 100vw;
+    margin-top: 2vh;
+    }
+.productdiv{
+    height: 15vh;
+    text-align: center;
+    padding: 20px;
+    }
+.productLogo{
+     height: 100px;
+    }
+.nav3{
+    justify-content: center;
+    padding: 5vh 0;
+    margin-top: 8vh;
+}
+.divone{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 55vh;
+}
+.blackdiv{
+    height: 40vh;
+    width: 300px;
+    background-color:  rgb(37, 34, 34);
+    margin-right: 2vw;
+    border-radius: 10px;
+
+}
+.reddiv{
+    height: 40vh;
+    width: 300px;
+    background-color:  rgb(37, 34, 34);
+    margin-left: 2vw;
+    border-radius: 10px;
+}
+
+
+.divtwo{
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+.nightdiv{
+    height: 40vh;
+    width: 300px;
+    background-color:  rgb(37, 34, 34);
+    margin-right: 2vw;
+    border-radius: 10px;
+}
+.bluediv{
+    height: 40vh;
+    width: 300px;
+    background-color:  rgb(37, 34, 34);
+    margin-left: 2vw;
+    border-radius: 10px;
+}
+
+.divthree{
+
+    justify-content: center;
+    display: flex;
+    /* background-color: aqua; */
+    
+}
+.graydiv{
+    height: 40vh;
+    width: 300px;
+    background-color:  rgb(37, 34, 34);
+    border-radius: 10px;
+}
+.blackpng  {
+    height: 250px;
+}
+.redBlack{
+    height: 250px;
+}
+.nightBlack{
+    height: 250px;
+}
+.bluepng{
+    height: 250px;
+}
+.twilightGray{
+    height: 250px;
+}
+
+.prodiv{
+    /* background-color: brown; */
+    height: 250px;
+    width: 200px;
+    margin: -80px 50px;
+}
+.product-info{
+    margin-top: 100px;
+    display: flex;
+    gap: 150px;
+    padding: 20px;
+}
+.shoppingBag{
+    background-color: rgb(72, 68, 68);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.section07{
+    height: 25vh;
+    width: 100vw;
+    padding: 10px;
+
+}
+footer{
+    display: flex;
+    gap: 10vw;
+    margin-top: 5vh;
+    align-items: center;
+    width: 100vw;
+}
+.footer-logo{
+    height: 30px;
+    margin-left: 10vw;
+    margin-top: -7vh;
+
+}
+.footer-subscription{
+    width: 40vw;
 }
 li{
     list-style: none;
-    font-size: 15px;
-}
-main{
-    display: flex;
-    height: 90vh;
-    width: 100vw;
-    }
-.mainDiv01{
-    width: 50vw;
-    height: 80vh;
-    padding: 50px;
-    
-}
-h1{
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-    padding: 5px 0px;
-}
-
-p{
-    padding: 20px 0px;
-    font-size: 20px;
-}
-
-button{
-    background-color: aqua;
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    width: 250px;
-    font-size: 20px;
     color: white;
 }
-.mainDiv02{
-    width: 50vw;
-    height: 80vh;
+.place{
     display: flex;
-    padding-left: 130px;
-    margin-top: 50px;
+    background-color:rgb(72, 68, 68);
+    height: 30px;
+    width: 20vw;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 20px;
 }
-.greenBox{
-    padding-top: 10px;
-    height: 70vh;
-    position: relative;
-    }
-.yellowBox{
-    padding-top: 70px;
-    height: 60vh;
-    position: absolute;
-    top: 120px;
-    left: 65vw;
+.email{
+    width: 10vw;
+    height: 30px;
+    background-color: rgb(72, 68, 68);
+    border: none;
+    font-size: 20px;
+    
 }
-.doctor{
-    padding-top: 20px;
-    height: 80vh;
-    position: absolute;
+.subscribe-button{
+    width: 10vw;
+    height: 30px;
+    display: flex;
+    background-color: rgb(26, 22, 22);
+    border-radius: 5px;
+    align-items: center;
+}
+.sub{
+    width: 5vw;
+    font-size: 1.5vw;
+}
+.rightArrow{
+    height: 20px;
+}
+.arrow-up{
+    height: 30px;
+    margin-right: 10vw;
+    margin-top: -7vh;
 }
